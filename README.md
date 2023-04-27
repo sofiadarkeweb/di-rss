@@ -12,7 +12,11 @@ I wanted to do the project in React so went for setting it up in Create React Ap
 
 Even though its a small site I wanted it to be scalable and set up a basic component structure, making it easy to add to the project.
 
+I made the site responsive using CSS grid and flexbox and media queries.
+
 When fetching the content from the feed I had to convert it to Json to make it managable in the UI. I considered using some library or build the functionality on my own, but in the end went for an online converter URL, it seamed like the best solution for now. Using libaries is always adding a small risk factor and building it on my own would probably have taking a bit of time.
+
+I deployed the site on Vercel, which is mainly a publishing tool for when you are working with Next.js but works really well with regular react sites as well.
 
 ## Features
 
@@ -31,6 +35,8 @@ Vercel (deploment)
 
 https://di-rss.vercel.app/
 
+## How to run the project locally
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -38,11 +44,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -63,11 +64,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
