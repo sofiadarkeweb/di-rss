@@ -16,6 +16,8 @@ I made the site responsive using CSS grid and flexbox and media queries.
 
 When fetching the content from the feed I had to convert it to Json to make it managable in the UI. I considered using some library or build the functionality on my own, but in the end went for an online converter URL, it seamed like the best solution for now. Using libaries is always adding a small risk factor and building it on my own would probably have taking a bit of time.
 
+If content fails to load I made a backup section that explains that something went wrong.
+
 I deployed the site on Vercel, which is mainly a publishing tool for when you are working with Next.js but works really well with regular react sites as well.
 
 ## Features
