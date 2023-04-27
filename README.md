@@ -25,11 +25,11 @@ I deployed the site on Vercel, which is mainly a publishing tool for when you ar
 
 ## Tech
 
-Create React App
-Node.js
-CSS
-RSS feed from www.di.se/rss
-Vercel (deploment)
+- Create React App
+- Node.js
+- CSS
+- RSS feed from www.di.se/rss
+- Vercel (deploment)
 
 ## Link to deployed site
 
