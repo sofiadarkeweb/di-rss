@@ -1,6 +1,35 @@
 # RSS feed
 
-xxx
+A test case for DI-gruppen.
+
+## Task
+
+Use their RSS feed and create a simple website showcasing the latest 10 articles in a suitable way.
+
+## Description
+
+I wanted to do the project in React so went for setting it up in Create React App, which is the most straight forward way I know to create a React project for a small task like this. Create react app is built on node.js and I will be using plain CSS. I wanted a site that gave a good overview of the articles and showed them in a readable appealing way.
+
+Even though its a small site I wanted it to be scalable and set up a basic component structure, making it easy to add to the project.
+
+When fetching the content from the feed I had to convert it to Json to make it managable in the UI. I considered using some library or build the functionality on my own, but in the end went for an online converter URL, it seamed like the best solution for now. Using libaries is always adding a small risk factor and building it on my own would probably have taking a bit of time.
+
+## Features
+
+- Display the latest news articles from the RSS feed.
+- Responsive design
+
+## Tech
+
+Create React App
+Node.js
+CSS
+RSS feed from www.di.se/rss
+Vercel (deploment)
+
+## Link to deployed site
+
+https://di-rss.vercel.app/
 
 ### `npm start`
 
