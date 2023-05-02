@@ -39,7 +39,8 @@ https://di-rss.sofiadarkeweb.vercel.app/
 
 ## Issues that came up
 
-After published the site got listed as unsafe after a couple of days. Possible reasons, the url to convert the rss to json contained some dirty code. CTA Need to change this to a better safer solution!
+After published the site got listed as unsafe after a couple of days. Possible reasons:
+The deployed site returned too much data from the hook (fixed now) or the url to convert the rss to json contained some dirty code.
 
 ## How to run the project locally
 
