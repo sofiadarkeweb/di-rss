@@ -36,6 +36,11 @@ I deployed the site on Vercel, which is mainly a publishing tool for when you ar
 ## Link to deployed site
 
 https://di-rss.vercel.app/
+https://di-rss.sofiadarkeweb.vercel.app/
+
+## Issues that came up
+
+After published the site got listed as unsafe after a couple of days. Possible reasons, the url to convert the rss to json contained some dirty code. CTA Need to change this to a better safer solution!
 
 ## How to run the project locally
 
