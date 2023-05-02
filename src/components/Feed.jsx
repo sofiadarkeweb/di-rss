@@ -21,6 +21,8 @@ const Feed = () => {
 
   const RSS_URL = `https://www.di.se/rss`
   const PARSED_TO_JSON_RSS_URL = `https://rss-to-json-serverless-api.vercel.app/api?feedURL=${RSS_URL}`
+//  const newparsed = `https://jsonformatter.org/rss-to-json/?url=https://www.di.se/rss`
+
 
   useEffect(() => {
     const fetchDataFromRSSFeed = async () => {
@@ -36,10 +38,12 @@ const Feed = () => {
     } catch (error) {
       console.log("error", error)
     }
-  })
+  }, [items, PARSED_TO_JSON_RSS_URL])
+
 
   return (
    <div className="articles">
+
         {itemsExist ? (
           items.map((item, index) => {
             return Article(
