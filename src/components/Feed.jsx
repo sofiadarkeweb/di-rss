@@ -18,25 +18,20 @@ const Article = (index, title, description, link, published) => {
 const Feed = () => {
   const [items, setItems] = useState([])
   const itemsExist = items.length > 0
+  const RSS_URL = `https://www.di.se/rss`
+  const PARSED_TO_JSON_RSS_URL = `https://rss-to-json-serverless-api.vercel.app/api?feedURL=${RSS_URL}`
 
-
-    const RSS_URL = `https://www.di.se/rss`
-    const PARSED_TO_JSON_RSS_URL = `https://rss-to-json-serverless-api.vercel.app/api?feedURL=${RSS_URL}`
-    const fetchDataFromRSSFeed = async () => {
+  const fetchDataFromRSSFeed = async () => {
       const result = await fetch(PARSED_TO_JSON_RSS_URL)
       const resultToJson = await result.json()
       const TenLatestItems = resultToJson.items.slice(0, 10)
       setItems(TenLatestItems)
-    }
+  }
 
+  useEffect(() => {
+    fetchDataFromRSSFeed()
+  }, [])
   
-    useEffect(() => {
-      fetchDataFromRSSFeed()
-    }, [])
-    
-
-
-
   return (
    <div className="articles">
 
