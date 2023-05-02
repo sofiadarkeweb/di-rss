@@ -40,7 +40,11 @@ https://di-rss.sofiadarkeweb.vercel.app/
 ## Issues that came up
 
 After published the site got listed as unsafe after a couple of days. Possible reasons:
-The deployed site returned too much data from the hook (fixed now) or the url to convert the rss to json contained some dirty code.
+
+- The url to convert the rss to json contained some dirty code.
+- The deployed site returned too much data from the hook (fixed now)
+
+Got the site into google console to research the problem
 
 ## How to run the project locally
 
