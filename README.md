@@ -35,7 +35,6 @@ I deployed the site on Vercel, which is mainly a publishing tool for when you ar
 
 ## Link to deployed site
 
-https://di-rss.vercel.app/
 https://di-rss.sofiadarkeweb.vercel.app/
 
 ## Issues that came up
