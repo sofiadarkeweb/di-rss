@@ -47,7 +47,7 @@ const Feed = () => {
           })
         ) : (
           <h2 className="error message">
-            😢 Åh nej, vi kunde inte hitta några nyheter
+            😢 Åh nej, vi kunde inte hitta några nyheter!
           </h2>
         )}
   </div>
